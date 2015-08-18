@@ -13,19 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: ตรวจสอบค่าที่iกับตัวถัดไปคือi+1 โดยเริ่มที่กำหนดi=0 ถ้าค่าที่i>i+1ก็จะวนลูปไปเรื่อยๆจนกระทั่งค่าที่i<i+1ก็จะแสดงoutputออกมา
+        โดยที่เรียงค่าจากน้อยไปมาก
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่เกิดอะไรขึ้น คือ ไม่มีการเข้าลูปwhile
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [x,x*x]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: ถ้าไม่มีการกำหนดตัวแปรflag จะมีการวนลูปwhileแค่รอบเดียวและไม่สามารถเรียงตัวเลขจากมากไปน้อยได้ครบทุกตัว
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
